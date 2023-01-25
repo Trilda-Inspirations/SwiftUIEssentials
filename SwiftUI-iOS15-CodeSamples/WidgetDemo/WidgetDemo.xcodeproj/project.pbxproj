@@ -21,7 +21,7 @@
 		88E5C19827DF730200FB6BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E5C19727DF730200FB6BCC /* Assets.xcassets */; };
 		88E5C19A27DF730200FB6BCC /* WeatherWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 88E5C19627DF730000FB6BCC /* WeatherWidget.intentdefinition */; };
 		88E5C19B27DF730200FB6BCC /* WeatherWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 88E5C19627DF730000FB6BCC /* WeatherWidget.intentdefinition */; };
-		88E5C19E27DF730200FB6BCC /* WeatherWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 88E5C18D27DF730000FB6BCC /* WeatherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		88E5C19E27DF730200FB6BCC /* WeatherWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88E5C18D27DF730000FB6BCC /* WeatherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		88E5C1A427DF742800FB6BCC /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5C1A327DF742800FB6BCC /* WeatherData.swift */; };
 		88E5C1A527DF742800FB6BCC /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5C1A327DF742800FB6BCC /* WeatherData.swift */; };
 		88E5C1A627DF742800FB6BCC /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5C1A327DF742800FB6BCC /* WeatherData.swift */; };
@@ -38,15 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		88E5C1A227DF730200FB6BCC /* Embed App Extensions */ = {
+		88E5C1A227DF730200FB6BCC /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				88E5C19E27DF730200FB6BCC /* WeatherWidgetExtension.appex in Embed App Extensions */,
+				88E5C19E27DF730200FB6BCC /* WeatherWidgetExtension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -167,7 +167,7 @@
 				88E5C16B27DF716600FB6BCC /* Sources */,
 				88E5C16C27DF716600FB6BCC /* Frameworks */,
 				88E5C16D27DF716600FB6BCC /* Resources */,
-				88E5C1A227DF730200FB6BCC /* Embed App Extensions */,
+				88E5C1A227DF730200FB6BCC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -221,7 +221,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					88E5C16E27DF716600FB6BCC = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -445,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UTH99GSB7;
+				DEVELOPMENT_TEAM = 8NXQKPKH3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -476,7 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UTH99GSB7;
+				DEVELOPMENT_TEAM = 8NXQKPKH3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -506,10 +506,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UTH99GSB7;
+				DEVELOPMENT_TEAM = 8NXQKPKH3Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -534,10 +535,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UTH99GSB7;
+				DEVELOPMENT_TEAM = 8NXQKPKH3Z;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -563,7 +565,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UTH99GSB7;
+				DEVELOPMENT_TEAM = 8NXQKPKH3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WeatherWidget;
@@ -592,7 +594,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UTH99GSB7;
+				DEVELOPMENT_TEAM = 8NXQKPKH3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WeatherWidget;
